@@ -10,13 +10,10 @@
    		--val
 ```
 
-数据和权重可以使用百度云下载 链接：https://pan.baidu.com/s/10E0CIehRMUA7zepmSbtjjA 提取码：wabv 
 
 ## 模型训练
 ```
 python main.py train
-
-
 
 time python main.py test --ckp=weights_11.pth ##
 tensorboard --logdir=/home/yus/Documents/u_net_liver-master/tensorboard/
@@ -29,4 +26,3 @@ tensorboard --logdir=/home/yus/Documents/u_net_liver-master/tensorboard/
 python main.py test --ckp=weights_19.pth
 ```
 
-![](https://img-blog.csdn.net/20180508083935908)

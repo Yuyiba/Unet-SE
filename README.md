@@ -5,7 +5,7 @@
 ```
   --project
   	main.py
-  	 --data
+  	data
    		--train
    		--val
 ```

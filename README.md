@@ -2,11 +2,12 @@
 
 ## 数据准备
 项目文件分布如下
+~
 main.py
 data
   --train
   --val
-
+~
 
 
 ## Train & Test

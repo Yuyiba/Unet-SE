@@ -11,18 +11,16 @@
 ```
 
 
-## 模型训练
+## Train & Test
 ```
+#### train
 python main.py train
+#### test
+python main.py test --ckp=weights_11.pth 
 
-time python main.py test --ckp=weights_11.pth ##
+#### tensorboard
 tensorboard --logdir=/home/yus/Documents/u_net_liver-master/tensorboard/
 
 ```
 
-## 测试模型训练
-加载权重，默认保存最后一个权重
-```
-python main.py test --ckp=weights_19.pth
-```
 

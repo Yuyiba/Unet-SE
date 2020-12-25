@@ -2,25 +2,22 @@
 
 ## 数据准备
 项目文件分布如下
-```
-  --project
-  	main.py
-  	data
-       --train
-       --val
-```
+main.py
+data
+  --train
+  --val
+
 
 
 ## Train & Test
-```
-#### train
+
+### train
 python main.py train
-#### test
+### test
 python main.py test --ckp=weights_11.pth 
 
-#### tensorboard
+### tensorboard
 tensorboard --logdir=/home/yus/Documents/u_net_liver-master/tensorboard/
 
-```
 
 

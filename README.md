@@ -1,4 +1,4 @@
-# u_net_liver
+# Unet-SE backbone 
 
 ## 数据准备
 项目文件分布如下

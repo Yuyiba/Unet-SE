@@ -15,13 +15,13 @@ if __name__ == '__main__':
     cmatrix = np.zeros((2,2))
     all_acc = 0
 
-    for file_name in (Path(args.train_path)).glob('*'):
+    for file_name in (Path(args.predimage)).glob('*'):
 
         y_pred = (cv2.imread(str(file_name), 0) >= 127).astype(np.uint8)
         y_pred= cv2.resize(y_pred,(512,512))
 
         # Change as needed groundtruth images name
-        tmp_file_name = str((Path(args.target_path) / file_name.name))[:-4]
+        tmp_file_name = str((Path(args.groudtruth) / file_name.name))[:-4]
         tmp_file_name = tmp_file_name + '_gt.png'    
 
         y_true = (cv2.imread(str(tmp_file_name), 0) >= 127).astype(np.uint8)

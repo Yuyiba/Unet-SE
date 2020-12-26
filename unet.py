@@ -67,7 +67,6 @@ class Unet(nn.Module):
         c1=self.conv1(x)
         #print(c1.size())
         c1=self.se1(c1)
-        print(c1.size())
         p1=self.pool1(c1)
 
         c2=self.conv2(p1)
